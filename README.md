@@ -22,6 +22,7 @@ ENV.manifest = {
   excludePaths: ['index.html', 'someother.html'],
   includePaths: ['/'],
   network: ['api/'],
+  pathPrefix: "http://your.optional.cdn/",
   showCreateDate: true
 }
 ````
